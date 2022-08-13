@@ -1,0 +1,17 @@
+{
+  "name": "hardhat-project",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "eth": "zsh ./scripts/zsh-connect-to-ethereum.sh",
+    "eth-bash": "bash ./scripts/bash-connect-to-ethereum.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.1",
+    "web3": "^1.7.5"
+  }
+}
