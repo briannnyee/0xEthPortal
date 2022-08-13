@@ -3,7 +3,7 @@
 
 [![0xEthPortal](https://img.shields.io/badge/0xEtherPortal-Stable-green)](https://nodesource.com/products/nsolid) [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![Made with love in Taiwan](https://madewithlove.now.sh/tw?heart=true&colorB=%23339f1d)
 
-![title](./0xEthPortal.jpeg)
+![title](./0xEthPortal.png)
 
 0xEthPortal pre-configures Hardhat Console for you. No more googling. Clone the repo, fill in secrets, and you can enjoy
 
@@ -28,7 +28,7 @@ Rename `secrets-example.json` to `secrets.json`
 mv ./secrets-example.json ./secrets.json
 ```
 
-Fill in secrets.json
+Fill in secrets.json <br>
 ⚠️ Double-check the `.gitignore` file to prevent leaking secrets accidentally
 
 | Secrets | Description |

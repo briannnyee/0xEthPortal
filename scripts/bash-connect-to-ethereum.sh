@@ -5,7 +5,7 @@ read -p "Connect to mainnet | goerli | ropsten | rinkeby: " network
 case ${network} in
     "mainnet")
         cat ./asciiart/asciiart-ethereum.txt
-        echo "====================== You Are At Mainet! ======================="
+        echo "====================== You Are At Mainnet! ======================="
         echo ""
         npx hardhat console --network mainnet
         ;;
